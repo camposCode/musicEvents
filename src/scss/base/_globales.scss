@@ -12,13 +12,14 @@ html{
 }
 
 body{
-    font-size: v.$fuente_principal;
+    font-family: v.$fuente_principal;
     font-size: 1.6rem;
 }
 
 p{
     font-size: 2rem;
     color: v.$negro;
+    line-height: 1.3;
 }
 
 .contenedor{
@@ -45,4 +46,9 @@ h2{
 
 h3{
     font-size: 3rem;
+}
+
+img{
+    max-width: 100%;
+    display: block;
 }
